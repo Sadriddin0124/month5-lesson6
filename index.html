@@ -1,119 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 1</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Menu</title>
     <style>
-        * {
-            font-family: sans-serif;
-        }
-
         body {
-            margin: 0;
-            padding: 0;
-            background: #063f3b;
-        }
-
-        .container {
-            width: 100%;
-            height: 90vh;
+            background: #000;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-
-        .form {
-            display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 10px;
+            font-family: sans-serif;
+            height: 90vh;
         }
 
-        input {
-            position: relative;
-            width: 300px;
-            outline: none;
-            border: none;
-            padding: 10px 0;
-            border-bottom: 2px solid gray;
-            background-color: transparent;
-            font-size: 20px;
-            color: white;
-            margin: 10px;
-        }
-
-        input:focus {
-            border-bottom: 2px solid black;
-        }
-
-        .email {
-            position: relative;
-        }
-
-        span {
-            position: absolute;
-            color: gray;
-            font-size: 14px;
-        }
-
-        .title1 {
-            top: 110px;
-            left: 25px;
-        }
-
-        .title2 {
-            left: 25px;
-            top: 180px;
-        }
-
-        .eye {
-            right: 28px;
-            font-size: 20px;
-            top: 210px;
-            cursor: pointer;
-        }
-
-        .title {
-            color: aliceblue;
-            font-size: 40px;
-            font-weight: 500;
-        }
-
-        .password {
-            position: relative;
-        }
-
-        .form {
-            width: 350px;
-            position: relative;
-        }
-
-        .btn {
-            width: 300px;
-            padding: 10px;
-            background-color: black;
-            color: white;
-            border: none;
+        a {
+            text-decoration: none;
+            margin: 20px;
+            color: black;
+            padding: 20px 30px;
+            background-color: bisque;
+            width: 100px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px bisque;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <form action="#" class="form">
-            <h1 class="title">Log In</h1>
-            <span class="title1">Email</span>
-            <input type="email" class="email">
-            <span class="title2">Password</span>
-            <input type="password" class="password" id="myInput">
-            <span class="eye" onclick="show()" id="eye"><i class="fa-solid fa-eye"></i></span>
-            <button class="btn" >LOG IN</button>
-        </form>
-    </div>
-    <script src="./main.js"></script>
+    <a href="./index1.html">Task 1</a>
+    <a href="./index2.html">Task 2</a>
+    <a href="./index3.html">Task 3</a>
 </body>
-
 </html>
